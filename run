@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for script in runs/*; do
+  echo "Running $script..."
+  bash "$script"
+done
